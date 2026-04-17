@@ -1,0 +1,43 @@
+{
+  "name": "vue-ui-lib",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "vue": "^3.5.32"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "build:lib": "vite build --mode production",
+    "test": "npx vitest run",
+    "docs:dev": "npx vitepress dev docs",
+    "docs:build": "npx vitepress build docs",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.2",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "@vue/test-utils": "^2.4.6",
+    "@vue/tsconfig": "^0.9.1",
+    "jsdom": "^29.0.2",
+    "sass": "^1.99.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.4",
+    "vitepress": "^1.6.4",
+    "vitest": "^4.1.4",
+    "vue-tsc": "^3.2.6"
+  }
+}
