@@ -25,6 +25,7 @@
     "test": "npx vitest run",
     "docs:dev": "npx vitepress dev docs",
     "docs:build": "npx vitepress build docs",
+    "docs:deploy": "npm run docs:build && gh-pages -d docs/.vitepress/dist",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -32,6 +33,7 @@
     "@vitejs/plugin-vue": "^6.0.5",
     "@vue/test-utils": "^2.4.6",
     "@vue/tsconfig": "^0.9.1",
+    "gh-pages": "^6.3.0",
     "jsdom": "^29.0.2",
     "sass": "^1.99.0",
     "typescript": "~6.0.2",

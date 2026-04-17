@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Vue UI Lib',
   description: '基于 Vue 3 + TypeScript 的轻量组件库',
+  base: '/vue-ui-lib/',
   lang: 'zh-CN',
   lastUpdated: true,
 
@@ -17,7 +18,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '快速开始', link: '/guide/getting-started' },
       { text: '组件', link: '/components/button' },
-      { text: 'GitHub', link: 'https://github.com/your-org/vue-ui-lib' },
+      { text: 'GitHub', link: 'https://github.com/Gsq921/vue-ui-lib' },
     ],
 
     sidebar: {
