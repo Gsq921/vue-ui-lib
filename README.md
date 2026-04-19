@@ -81,4 +81,4 @@ npm run preview
 ## 在线文档链接
 
 - 本地文档（开发环境）：[http://localhost:5173](http://localhost:5173)
-- 线上文档（部署后替换）：[https://your-org.github.io/vue-ui-lib](https://your-org.github.io/vue-ui-lib)
+- 线上文档（部署后补充）：
